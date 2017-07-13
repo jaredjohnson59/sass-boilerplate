@@ -1,0 +1,13 @@
+{
+  "name": "sass-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run scss-compile",
+    "scss-compile": "node-sass -rw global.scss -o ./",
+    "watch": "npm run scss-compile"
+  },
+  "author": "Jared Johnson",
+  "license": "ISC"
+}
